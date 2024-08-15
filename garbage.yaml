@@ -1,6 +1,6 @@
-train: C:\\work\\yolo\\det_garbage_yolo\\train\\images
-val: C:\\work\\yolo\\det_garbage_yolo\\valid\\images
-test: C:\\work\\yolo\\det_garbage_yolo\\test\\images
+train: D:\\AndroidProject\\det_garbage_yolo\\train\\images
+val: D:\\AndroidProject\\det_garbage_yolo\\valid\\images
+test: D:\\AndroidProject\\det_garbage_yolo\\test\\images
 
 nc: 2
 names: ['Garbage','Person']
