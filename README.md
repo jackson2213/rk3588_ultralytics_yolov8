@@ -12,7 +12,7 @@ Exports detection/segment model with optimization for RKNN, please refer here [R
       <img width="100%" src="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png"></a>
   </p>
 
-[English](README.md) | [简体中文](README.zh-CN.md)
+[English](README.md) | [简体中文](README.zh-CN.md) | [RKNN 部署](CONVERT.md)
 <br>
 
 <div>
