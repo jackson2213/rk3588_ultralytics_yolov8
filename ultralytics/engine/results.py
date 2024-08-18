@@ -307,7 +307,9 @@ class Results(SimpleClass):
             # Detect/segment/pose
             for j, d in enumerate(boxes):
                 c, conf, id = int(d.cls), float(d.conf), None if d.id is None else int(d.id.item())
-                line = (c, *d.xywhn.view(-1))
+                if c!=0:
+                    continue
+                line = (1, *d.xywhn.view(-1))
                 if masks:
                     seg = masks[j].xyn[0].copy().reshape(-1)  # reversed mask.xyn, (n,2) to (n*2)
                     line = (c, *seg)

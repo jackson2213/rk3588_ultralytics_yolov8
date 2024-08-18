@@ -26,5 +26,10 @@ def export():
     path = model.export(format="onnx")  # export the model to ONNX format
 
 
+def predict():
+    model = YOLO("yolov8x.yaml").load("yolov8x.pt")  # build from YAML and transfer weights
+    model.predict(source="C:\\Users\\97409\\Desktop\\MP4\\frames")
+
+
 if __name__ == '__main__':
-    export()
+    predict()

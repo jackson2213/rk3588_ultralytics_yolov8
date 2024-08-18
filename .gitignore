@@ -143,6 +143,7 @@ wandb/
 weights/
 *.weights
 *.pb
+*.pt
 *.engine
 *.mlmodel
 *.mlpackage

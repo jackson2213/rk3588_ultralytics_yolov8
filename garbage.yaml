@@ -3,5 +3,5 @@ val: D:\\AndroidProject\\det_garbage_yolo\\valid\\images
 test: D:\\AndroidProject\\det_garbage_yolo\\test\\images
 
 nc: 2
-names: ['Garbage','Person']
+names: ['Garbage','Person','hold garbage']
 
